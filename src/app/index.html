@@ -17,44 +17,53 @@
 </head>
 
 <body>
-  <div class="container vh-100 px-4 text-center">
+  <div class="container-fill vw-100 vh-100 px-4 text-center bg-dark">
+    <!-- Row for time, date, and weather widgets -->
     <div class="row h-10">
       <div class="col">
-        <div class="p-3 border bg-light">Time | Date | Weather</div>
+        <div class="p-3 bg-secondary">Time | Date | Weather</div>
       </div>
     </div>
+
+    <!-- Row for google calendar, and trello widgets -->
     <div class="row h-25">
       <div class="col">
-        <div class="p-3 border bg-light">Mini Google Calendar</div>
+        <div class="p-3 bg-secondary">Mini Google Calendar</div>
       </div>      
       <div class="col"></div>      
       <div class="col">
-        <div class="p-3 border bg-light">Mini Trello</div>
+        <div class="p-3 bg-secondary">Mini Trello</div>
       </div>      
     </div>
+
+    <!-- Row for bookmarks widget -->
     <div class="row h-50">
       <div class="col">
-        <div class="p-3 border bg-light">bookmarks</div>
+        <div id="bookmark-category-container" class="p-3 bg-secondary">
+        </div>
+        <div id="bookmark-bookmark-container" class="p-3 bg-secondary">Bookmarks</div>
       </div>
     </div>
     <div class="row">
       <div class="col">
-        <div class="p-3 border bg-light">Ticker</div>
+        <div class="p-3 bg-secondary">Ticker</div>
       </div>
       <div class="col">
-        <div class="p-3 border bg-light">Ticker</div>
+        <div class="p-3 bg-secondary">Ticker</div>
       </div>
       <div class="col">
-        <div class="p-3 border bg-light">Ticker</div>
+        <div class="p-3 bg-secondary">Ticker</div>
       </div>
     </div>
+
+    
     <div class="row fixed-bottom">
       <div class="col-2">
-        <div class="p-3 border bg-light">settings</div>
+        <div class="p-3 bg-secondary">settings</div>
       </div>
       <div class="col-8"></div>
       <div class="col-2">
-        <div class="p-3 border bg-light">media</div>
+        <div class="p-3 bg-secondary">media</div>
       </div>
     </div>
   </div>
